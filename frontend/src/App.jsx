@@ -201,9 +201,6 @@ function App() {
     <div className="app-container">
       <header>
         <h1>Weather App</h1>
-        <button onClick={() => setShowInfo(true)} className="info-btn">
-          i
-        </button>
       </header>
 
 
