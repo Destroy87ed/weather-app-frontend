@@ -206,16 +206,6 @@ function App() {
         </button>
       </header>
 
-      {showInfo && (
-        <div className="info-modal">
-          <h2>About This App</h2>
-          <p>
-            <strong>Built by:</strong> Bitania Yonas
-          </p>
-          <p>{PMA_DESCRIPTION}</p>
-          <button onClick={() => setShowInfo(false)}>Close</button>
-        </div>
-      )}
 
       {/* Navigation Tabs */}
       <div className="nav-tabs">
