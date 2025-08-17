@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-const PMA_DESCRIPTION = `Product Manager Accelerator (PMA) is a community and learning platform for aspiring and current product managers. Learn more at our LinkedIn page: https://www.linkedin.com/company/product-manager-accelerator/`;
-
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
 
 function App() {
