@@ -233,7 +233,7 @@ function App() {
           >
             <input
               type="text"
-              placeholder="Enter city, zip code, landmark, etc."
+              placeholder="Enter a city or country."
               value={location}
               onChange={(e) => setLocation(e.target.value)}
               disabled={loading}
